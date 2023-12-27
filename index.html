@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Certified</title>
+    <link type="image/x-icon" href="img/e.ico" rel="icon" />
+    <link type="text/css" href="styles.css" rel="stylesheet"/>
+    <link type="text/css" href="styles/text.css" rel="stylesheet"/>
+    <link type="text/css" href="styles/carousel.css" rel="stylesheet"/>
+    <script src="js/jquery.js"></script>
+    <script src="js/nav.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="header_wrap">
+            <div class="site-id">
+                <img src="img/e.png" alt="ibr-logo"/>
+                <h3>The Emmakulate</h3>
+            </div>
+
+            <div class="ham-nav">
+                <img src="img/hamnav.svg" alt="ibr-logo"/>
+
+                <ul class="mobile-nav">
+                    <a href="#benefits"><li>Benefits</li></a>
+                    <a href="#gallery"><li>Gallery</li></a>
+                    <a href="#imp"><li>Importance</li></a>
+                    <a href="#test"><li>Testimonials</li></a>
+                    <a href="#pay"><li>Payment</li></a>
+
+                    <a href="#">
+                        <hr/>
+                        <li class="tab">
+                            Call Now
+                            <div class="icon">
+                                <!-- <img src="img/call-icon.svg" alt="call"/> -->
+                            </div>    
+                        </li>
+                    </a>
+
+                    <!-- <a href="#test"><li></li></a> -->
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="pad"></div>
+
+    <div id="carousel">
+
+        <div class="slider">
+
+            <div class="slide_viewer">
+
+                <div class="slide_group">
+
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2023-06-10 at 09.55.16.jpeg" alt="slider1">
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2023-06-10 at 09.55.15.jpeg" alt="slider2">
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2023-06-14 at 15.34.56.jpeg" alt="slider3">
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2023-06-14 at 15.34.56.jpeg" alt="slider3">
+                    </div>
+
+                    <div class="slide">
+                        <img src="img/WhatsApp Image 2023-06-14 at 15.34.56.jpeg" alt="slider3">
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End // .slider -->
+        
+        <div class="slide_buttons">
+        </div>
+
+        <div class="directional_nav">
+        <div class="previous_btn" title="Previous">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
+            <g>
+                <g>
+                <path fill="#474544" d="M-10.5,22.118C-10.5,4.132,4.133-10.5,22.118-10.5S54.736,4.132,54.736,22.118
+                    c0,17.985-14.633,32.618-32.618,32.618S-10.5,40.103-10.5,22.118z M-8.288,22.118c0,16.766,13.639,30.406,30.406,30.406 c16.765,0,30.405-13.641,30.405-30.406c0-16.766-13.641-30.406-30.405-30.406C5.35-8.288-8.288,5.352-8.288,22.118z"/>
+                <path fill="#474544" d="M25.43,33.243L14.628,22.429c-0.433-0.432-0.433-1.132,0-1.564L25.43,10.051c0.432-0.432,1.132-0.432,1.563,0	c0.431,0.431,0.431,1.132,0,1.564L16.972,21.647l10.021,10.035c0.432,0.433,0.432,1.134,0,1.564	c-0.215,0.218-0.498,0.323-0.78,0.323C25.929,33.569,25.646,33.464,25.43,33.243z"/>
+                </g>
+            </g>
+            </svg>
+        </div>
+        <div class="next_btn" title="Next">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="65px" height="65px" viewBox="-11 -11.5 65 66">
+            <g>
+                <g>
+                <path fill="#474544" d="M22.118,54.736C4.132,54.736-10.5,40.103-10.5,22.118C-10.5,4.132,4.132-10.5,22.118-10.5	c17.985,0,32.618,14.632,32.618,32.618C54.736,40.103,40.103,54.736,22.118,54.736z M22.118-8.288	c-16.765,0-30.406,13.64-30.406,30.406c0,16.766,13.641,30.406,30.406,30.406c16.768,0,30.406-13.641,30.406-30.406 C52.524,5.352,38.885-8.288,22.118-8.288z"/>
+                <path fill="#474544" d="M18.022,33.569c 0.282,0-0.566-0.105-0.781-0.323c-0.432-0.431-0.432-1.132,0-1.564l10.022-10.035 			L17.241,11.615c 0.431-0.432-0.431-1.133,0-1.564c0.432-0.432,1.132-0.432,1.564,0l10.803,10.814c0.433,0.432,0.433,1.132,0,1.564 L18.805,33.243C18.59,33.464,18.306,33.569,18.022,33.569z"/>
+                </g>
+            </g>
+            </svg>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- landing -->
+    <!-- <div class="landing" id="about-us">
+      
+        <div class="landing-text">
+            <h1>The Future Starts Here..</h1>
+            <h3>Microsoft office specialist</h3>
+        </div>
+
+    </div> -->
+
+    <!-- main -->
+    <div id="main">
+
+
+        <center>
+            <button id="products" style="width: 160px;">Contact Us</button>
+        </center>
+        
+
+        <p id="benefits">
+            Microsoft Office Specialist Certification is a series of certifications
+            provided by Microsoft to certify people
+        </p>
+
+        
+        <div class="section-header">
+            <h1>Benefits of <strong style="color: red;" title="Microsoft Office Specialist">MOS</strong></h1>
+        </div>
+
+        <div class="contact-box">
+
+            <a href="#" target="_blank">
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/ribbon.png" alt="" />
+                    </div>
+                    <div>
+                    <h3>Improved Employability</h3>
+                    </div>
+
+                </div>
+            </a>
+
+            <a href="#" target="_blank">
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/ribbon.png" alt="" />
+                    </div>
+                    <h3>Increased productivity</h3>
+                </div>
+            </a>
+
+            <a href="#" target="_blank">
+
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/ribbon.png" alt="" />
+                    </div>
+                    <h3>Enhanced skills</h3>
+                </div>
+
+
+            </a>
+
+            <a href="#" target="_blank">
+                
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/ribbon.png" alt="" />
+                    </div>
+                    <h3>Competitive advantage</h3>
+                </div>
+
+            </a>
+
+            <a href="#" target="_blank" id="gallery">
+                
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/ribbon.png" alt="" />
+                    </div>
+                    <h3> Personal satisfaction</h3>
+                </div>
+
+            </a>
+
+
+        </div>
+
+        <div class="section-header" >
+            <h1>Gallery</h1>
+        </div>
+
+         <div class="container" >
+
+            <div class="item">
+                <div class="product">
+                    <img src="img/abj1.jpg" />
+                    <h3>AFGCS Abuja</h3>
+                    <p>2023</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product">
+                    <img src="img/yola.jpg" />
+                    <h3>AFCS Yola</h3>
+                    <p>2023</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product">
+                    <img src="img/test.jpg" />
+                    <h3>AFCS Certificate Collection</h3>
+                    <p>2023</p>
+                </div>
+            </div>
+
+            <div class="item" >
+                <div class="product">
+                    <img src="img/sarg.jpg" />
+                    <h3>AFCS Certificate Collection</h3>
+                    <p id="imp">2023</p>
+                </div>
+            </div>
+
+
+        </div>
+
+                        
+        <div class="section-header">
+            <h1>Importance of <strong style="color: red;" title="Microsoft Office Specialist">MOS</strong></h1>
+        </div>
+
+        <!-- testimonials -->
+        <div class="testimonials">
+            <p> 
+                Help the student obtain an 
+                international scholarship 
+                with foreign universities 
+            </p>
+            <!-- <h3>1</h3> -->
+        </div>
+
+        <div class="testimonials">
+            <p> 
+                Help the student obtain an 
+                Help give the student a competitive edge among 
+                their contemporaries in their educational pursuit. 
+            </p>
+            <!-- <h3>1</h3> -->
+        </div>
+
+        <div class="testimonials">
+            <p> 
+                Help create an enabling platform 
+                for students to further their education internationally 
+            </p>
+            <!-- <h3>1</h3> -->
+        </div>
+
+        <div class="testimonials" id="test">
+            <p> 
+                Enhanced ICT skills are applicable in work and can  
+                improve learning efficiency
+            </p>
+            <!-- <h3>1</h3> -->
+        </div>
+  
+        <div class="section-header" >
+            <h1>Testimonials</h1>
+        </div>
+
+
+
+        <!-- <div class="testimonials">
+            <center>
+            <div class="bank-logo">
+                <img src="img/eze.jpg"/>
+            </div>
+            <p> 
+                Have learnt a lot 
+                Such as table text conversions, layout etc, thanks to Emmakulate am a Certified MOS Specialist !!!
+            </p>
+            <h3>Eze Cyntia</h3>
+            </center>
+        </div> -->
+
+        <div class="test-container">
+
+            <div class="test-tab">
+                <center>
+                <div class="test-img-box">
+                    <img src="img/eze.jpg"/>
+                </div>
+                <h3>Eze Cyntia</h3>
+                <p> 
+                    Have learnt a lot 
+                    Such as table text conversions, layout etc, thanks to Emmakulate am a Certified MOS Specialist !!!
+                </p>
+                
+                </center>
+            </div>
+
+            <div class="test-tab">
+                <center>
+                <div class="test-img-box">
+                    <img src="img/brilliant.jpg"/>
+                </div>
+                <h3>Brilliant Oshatuyi</h3>
+                <p> 
+                 Thanks to the NAF, Emmakulate, and Microsoft for giving me the 
+                 opportunity and platform to be certified as a MOS Specialist
+                </p>
+                
+                </center>
+            </div>
+
+            <div class="test-tab">
+                <center>
+                <div class="test-img-box">
+                    <img src="img/debbie.jpg"/>
+                </div>
+                <h3>Adeleke Deborah</h3>
+                <p> 
+                   I want to appreciate Emmakulate and my School
+                    for providing a platform for developing my abilities and skills
+                </p>
+                
+                </center>
+            </div>
+
+        </div>
+
+        <div class="section-header">
+            <h1>All School Contacts</h1>
+        </div>
+
+        <div class="contact-box">
+
+            <a href="tel:09030009055" target="_blank">
+                
+                <h4>AFMS JOS</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afms.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 09030009055 (Gbenga)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 081 620 65896 (Victor)</h3> 
+                    </div>
+
+                </div>
+
+            </a>
+
+            
+            <a href="https://wa.me/08101274258" target="_blank">
+                
+                <h4>AFGMS JOS</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afms.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 703 935 7689 (Avindia)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 901 432 3153 (Ivy)</h3> 
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:08065522784" target="_blank">
+                
+                <h4>AFGCS ABUJA</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 8065522784 (Blessing)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 08162642055 (Jane)</h3> 
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:08145058388" target="_blank">
+                
+                <h4>AFCS YOLA</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 8145058388 (Seun)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 7035236352 (Abdullahi)</h3> 
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:09063651913"  target="_blank">
+                
+                <h4>AFCS KADUNA</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 9063651913 (Abubakar)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 7037133692 (Kabir)</h3> 
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:08037465082" target="_blank">
+                
+                <h4>AFCS KANO</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 8037465082 (Chris)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 8188339324 (Eunice)</h3>
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:08037465082" target="_blank">
+                
+                <h4>AFCS ENUGU</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 8060115206 (Peace)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 8033172685 (Manga)</h3>
+                    </div>
+
+                </div>
+
+            </a>
+
+            
+            <a href="tel:08038226824" target="_blank">
+                
+                <h4>AFCS IBADAN</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 8038226824 (Solomon)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 8146837701 (Aishat)</h3>
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:07034837063" target="_blank">
+                
+                <h4>AFCS PORT-HARCOUT</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 7034837063 (Success)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 8164818219 (Royal)</h3>
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:08061175811" target="_blank">
+                
+                <h4>AFSS MAKURDI</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 8061175811 (Basil)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 8061175811 (Ephram)</h3>
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:08039616560" target="_blank">
+                
+                <h4>AFCS UYO</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/afcs.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 8039616560 (Samuel)</h3>
+                        <!-- <br/>  -->
+                        <h3>+234 (0) 8026669597 (Umoren)</h3>
+                    </div>
+
+                </div>
+                
+            </a>
+
+            <a href="tel:07038427927" target="_blank" id="pay">
+                
+                <h4>UMCC IBADAN</h4>
+                <div class="contact">
+                    <div class="icon">
+                        <img src="img/umcc.png" alt="" />
+                    </div>
+                    <div>
+                        <h3>+234 (0) 7038427927 (Moses)</h3>
+                        <!-- <br/>  -->
+                    </div>
+
+                </div>
+                
+            </a>
+
+
+        </div>
+
+        <div class="section">
+            <div class="section-header" >
+                <h1>Payment details</h1>
+            </div>
+
+            <div class="payment-box">
+                <div class="payment">
+                    <div class="bank-logo">
+                        <img src="img/access.png"/>
+                    </div>
+                    <div class="payment-details">
+                        <h3>Pricing</h3>
+                        <h1>$70</h1>
+                        <h3>Dollar Account: <strong>0041424101</strong></h3>
+                        <h3>Naira Account: <strong>0063125853</strong></h3>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    
+        
+</div>
+
+    <div class="footer">
+        <div class="footer-wrap">
+
+
+            <div class="sec-nav">
+                <h1>Important Links</h1>
+                <ul>
+                    <a href="#benefits"><li>Benefits</li></a>
+                    <a href="#gallery"><li>Gallery</li></a>
+                    <a href="#imp"><li>Importance</li></a>
+                    <a href="#test"><li>Testimonials</li></a>
+                    <a href="#pay"><li>Payment</li></a>
+                </ul>
+
+                <!-- <h1>Social Media</h1>
+                <ul>
+                    <a href="https://wa.me/08101274258" target="_blank"><li>Whatsapp</li></a>
+                    <a href="https://instagram.com/impression.by.rae?igshid=YmMyMTA2M2Y=" target="_blank"><li>Instagram</li></a>
+                    <a href="https://www.facebook.com/impression.by.rae?mibextid=LQQJ4d" target="_blank"><li>Facebook</li></a>
+                    <a href="https://www.tiktok.com/@impression.by.rae?_t=8bniCvpF6t3&_r=1" target="_blank"><li>Tiktok</li></a>
+                </ul> -->
+
+                <h1>Further Enquires</h1>
+                <ul>
+                    
+                    <a href="tel:08101274258"><li>+234(0)9030009055 (Gbenga)</li></a>
+
+                </ul>
+
+                <p style="color: white;">For more enquires visit <strong><a style="color: white;" href="https://emmakulate.com" target="_blank">www.emmakulate.com</a></strong></p>
+
+            </div>
+
+            <div class="rights">
+                <p>All rights reserved @ <strong><a style="color: white;" href="https://emmakulate.com" target="_blank">Emmakulate Systems Solutions</a></strong></p>
+
+            </div>
+
+           
+
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/carousel.js">
+
+    </script>
+
+
+    
+</body>
+</html>
